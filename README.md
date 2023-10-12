@@ -1,3 +1,22 @@
+# Rimworld Mod Template Monodevelop and Linux
+
+This repository is generated from github template [https://github.com/Rimworld-Mods/Template](https://github.com/Rimworld-Mods/Template)
+
+The original template is targeting Windows and not straightforward for a Linux environment. I have made some changes to make it more friendly to Linux users.
+
+## Pre-requisite
+- .NET Framework 4.7.2 SDK installed (recommend using the dotnet-install script from [https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script))
+- Install monodevelop (or other tools that support NuGet, I think vscode supports that using the C# Dev Kit plugin)
+  - In monodevelop, Go to Tools > Extensions > IDE extensions and install NuGet Package Management Extensions
+- Fill mod.csproj with RootNamespace, AssemblyName, and other necessary settings.
+- Open mod.csproj using your IDE supporting NuGet, and you should be good to go
+
+
+
+Below is the README from original template, which is no longer valid in this repo. And will be removed in next big release of this repo.
+
+-------
+
 # Rimworld Mod Template
 
 This template is created for Rimworld modders who use [Visual Studio Code](https://code.visualstudio.com/) instead of Visual Studio IDE.

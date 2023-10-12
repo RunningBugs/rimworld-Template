@@ -13,11 +13,10 @@ The original template is targeting Windows and not straightforward for a Linux e
 
 
 
-Below is the README from original template, which is no longer valid in this repo. And will be removed in next big release of this repo.
+__Below is the README from original template, which is no longer valid in this repo. And will be removed in next big release of this repo.__
 
 -------
-
-# Rimworld Mod Template
+# ~~Rimworld Mod Template~~
 
 This template is created for Rimworld modders who use [Visual Studio Code](https://code.visualstudio.com/) instead of Visual Studio IDE.
 
@@ -39,4 +38,4 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 * All intermediate files are kept inside `.vscode` folder.
 * For XML only modders remove preLaunchTask line from `.vscode/launch.json` file.
 * Modify `.vscode/mod.csproj` and `About/About.xml` according to your needs.
- 
+

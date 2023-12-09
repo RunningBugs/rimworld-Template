@@ -5,8 +5,8 @@
 		<PlatformTarget>x64</PlatformTarget>
 
 		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] -->
-		<RootNamespace>Template</RootNamespace>
-		<AssemblyName>Template</AssemblyName>
+		<RootNamespace>RPP_Patch</RootNamespace>
+		<AssemblyName>RppCommonSenseCleanBeforeWorkPatch</AssemblyName>
 		<OutputPath>../1.4/Assemblies</OutputPath>
 		<VersionPrefix>0.1.0.0</VersionPrefix>
 
@@ -21,5 +21,9 @@
 	  <PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3704" />
 	  <PackageReference Include="Lib.Harmony" Version="2.2.2" />
 	  <PackageReference Include="UnlimitedHugs.Rimworld.HugsLib" Version="10.0.1" />
+	  <Reference Include="CommonSense">
+		<HintPath>CommonSense.dll</HintPath>
+		<Private>true</Private>
+	  </Reference>
 	</ItemGroup>
 </Project>

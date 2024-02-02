@@ -20,5 +20,9 @@
 		<!-- <li>username.modname</li> -->
 	</incompatibleWith>
 
+	<loadAfter>
+		<!-- <li>username.modname</li> -->
+	</loadAfter>
+
 	<description>Template</description>
 </ModMetaData>

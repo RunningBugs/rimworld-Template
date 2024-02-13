@@ -19,21 +19,21 @@ using RimWorld.Planet;
 
 namespace Template
 {
-    [DefOf]
-    public class TemplateDefOf
-    {
-        public static LetterDef success_letter;
-    }
+    // [DefOf]
+    // public class TemplateDefOf
+    // {
+    //     public static LetterDef success_letter;
+    // }
 
-    public class MyMapComponent : MapComponent
-    {
-        public MyMapComponent(Map map) : base(map){}
-        public override void FinalizeInit()
-        {
-            Messages.Message("Success", null, MessageTypeDefOf.PositiveEvent);
-            Find.LetterStack.ReceiveLetter("Success", TemplateDefOf.success_letter.description, TemplateDefOf.success_letter, null);
-        }
-    }
+    // public class MyMapComponent : MapComponent
+    // {
+    //     public MyMapComponent(Map map) : base(map){}
+    //     public override void FinalizeInit()
+    //     {
+    //         Messages.Message("Success", null, MessageTypeDefOf.PositiveEvent);
+    //         Find.LetterStack.ReceiveLetter("Success", TemplateDefOf.success_letter.description, TemplateDefOf.success_letter, null);
+    //     }
+    // }
 
     [StaticConstructorOnStartup]
     public static class Start

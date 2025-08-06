@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<ItemGroup>
+		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.*" />
+	</ItemGroup>
+</Project>

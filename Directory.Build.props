@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+</Project>

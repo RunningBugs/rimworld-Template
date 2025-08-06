@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
 	<ItemGroup>
+		<!-- <Reference Remove="0Harmony, Version=1.2.0.1, Culture=neutral, processorArchitecture=MSIL" />
+		<Reference Remove="Assembly-CSharp, Version=1.4.8315.26675, Culture=neutral, processorArchitecture=MSIL" /> -->
 		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.*" />
+		<PackageReference Include="Lib.Harmony" Version="2.3.*" />
+		<!-- <PackageReference Include="Krafs.Publicizer" Version="2.*">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		<Publicizer Include="Assembly-CSharp" /> -->
 	</ItemGroup>
 </Project>
